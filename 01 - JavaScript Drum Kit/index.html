@@ -1,0 +1,122 @@
+s<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key" id="a">
+        <img src="./images/aplaudir.png" alt="clap" />
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key" id="s">
+        <img src="./images/hi-hat.png" alt="clap" />
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key" id="d">
+        <img src="./images/bass-drum.png" alt="clap" />
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key" id="f">
+        <img src="./images/hi-hat.png" alt="clap" />
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key" id="g">
+        <img src="./images/gong.png" alt="clap" />
+        <kbd>G</kbd>
+        <span class="sound">gong</span>
+      </div>
+      <div data-key="72" class="key" id="h">
+        <img src="./images/bass-guitar.png" alt="clap" />
+        <kbd>H</kbd>
+        <span class="sound">bass</span>
+      </div>
+      <div data-key="74" class="key" id="j">
+        <img src="./images/snare-drum.png" alt="clap" />
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key" id="k">
+        <img src="./images/bassoon.png" alt="clap" />
+        <kbd>K</kbd>
+        <span class="sound">bassoon</span>
+      </div>
+      <div data-key="76" class="key" id="l">
+        <img src="./images/trumpet.png" alt="clap" />
+        <kbd>L</kbd>
+        <span class="sound">trumpet</span>
+      </div>
+
+      <div data-key="90" class="key" id="z">
+        <img src="./images/trombone.png" alt="clap" />
+        <kbd>Z</kbd>
+        <span class="sound">trombone</span>
+      </div>
+
+      <div data-key="88" class="key" id="x">
+        <img src="./images/drumstick.png" alt="clap" />
+        <kbd>X</kbd>
+        <span class="sound">drumstick</span>
+      </div>
+
+      <div data-key="67" class="key" id="c">
+        <img src="./images/piano.png" alt="clap" />
+        <kbd>C</kbd>
+        <span class="sound">piano</span>
+      </div>
+      <!-- <div data-key="77" class="key" id="m">
+        <img src="" alt="notes" />
+        <kbd>M</kbd>
+        <span class="sound">base</span>
+      </div> -->
+      <div data-key="78" class="key" id="n">
+        <img src="./images/notas-musicales.png" alt="notes" />
+        <kbd>N</kbd>
+        <span class="sound">base</span>
+      </div>
+    </div>
+
+    <audio data-key="65" id="a" class="audio" src="sounds/clap.mp3"></audio>
+    <audio data-key="83" id="s" class="audio" src="sounds/openhat.wav"></audio>
+    <audio data-key="68" id="d" class="audio" src="sounds/kick.wav"></audio>
+    <audio
+      data-key="70"
+      id="f"
+      class="audio"
+      src="sounds/platillos.mp3"
+    ></audio>
+    <audio
+      data-key="71"
+      id="g"
+      class="audio"
+      src="sounds/gongGONGindio.mp3"
+    ></audio>
+    <audio data-key="72" id="h" class="audio" src="sounds/bajo2.mp3"></audio>
+    <audio
+      data-key="74"
+      id="j"
+      class="audio"
+      src="sounds/tambor_22.mp3"
+    ></audio>
+    <audio data-key="75" id="k" class="audio" src="sounds/fagot-2-.mp3"></audio>
+    <audio data-key="76" id="l" class="audio" src="sounds/trompeta.mp3"></audio>
+    <audio data-key="90" id="z" class="audio" src="sounds/trombon.mp3"></audio>
+    <audio data-key="88" id="x" class="audio" src="sounds/bambu_1.mp3"></audio>
+    <audio data-key="67" id="c" class="audio" src="sounds/organo2.mp3"></audio>
+    <!-- <audio data-key="77" id="m" class="audio" src="sounds/DNB_1.mp3"></audio> -->
+    <audio
+      data-key="78"
+      id="n"
+      class="audio"
+      src="sounds/la-danza_3.mp3"
+    ></audio>
+
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>

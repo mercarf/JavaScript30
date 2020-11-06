@@ -1,0 +1,65 @@
+html {
+  font-size: 10px;
+  background: url('./images/jason-leung-Xaanw0s0pMk-unsplash.jpg') bottom center;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 0.4rem solid darkred;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem black;
+}
+.key:hover {
+  background-color: rgba(255, 198, 0, 0.4);
+  cursor: pointer;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
+
+/* .kA {
+  background-image: url('./images/aplaudir.png');
+  background-size: cover;
+  background-color: rgb(255, 255, 255, 0.5);
+} */
+img {
+  opacity: 0.8;
+  width: 5rem;
+}
