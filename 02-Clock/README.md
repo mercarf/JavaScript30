@@ -13,4 +13,8 @@ Este proyecto consiste en construir un reloj con CSS y JavaScript
 
 ## Estructura
 
+Este proyecto está realizado con HTML, CSS y JavaScript.
+
+---
+
 ℹ️ This project was based on one of Wes Bos' [JavaScript 30](https://javascript30.com/) challenges.
