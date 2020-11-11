@@ -18,7 +18,7 @@
 
 4. [Array Cardio Day 1](https://github.com/mercarf/JavaScript30/tree/main/04-ArrayCardio1)
 
-<img src="./03-CSSVariables/infoReadme/imgArray1.PNG" width="300px">
+<img src="./04-ArrayCardio1/infoReadme/imgArray1.PNG" width="300px">
 
 5. Flex Panel Gallery
 6. Type Ahead
