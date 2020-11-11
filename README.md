@@ -6,19 +6,19 @@
 
 1. [JavaScript Drum Kit](https://github.com/mercarf/JavaScript30/tree/main/01-DrumKit)
 
-<img src="./01-DrumKit/infoReadme/vista-general.PNG" width="300px">
+<img src="./01-DrumKit/infoReadme/vista-general.PNG" alt="image drum kit" width="300px">
 
 2. [JS and CSS Clock](https://github.com/mercarf/JavaScript30/tree/main/02-Clockt)
 
-<img src="./02-Clock/infoReadme/imgClock.PNG" width="300px">
+<img src="./02-Clock/infoReadme/imgClock.PNG" alt="image clock" width="300px">
 
 3. [CSS Variables](https://github.com/mercarf/JavaScript30/tree/main/03-CSSVariables)
 
-<img src="./03-CSSVariables/infoReadme/imgCSSVariables.PNG" width="300px">
+<img src="./03-CSSVariables/infoReadme/imgCSSVariables.PNG" alt="image css variables" width="300px">
 
 4. [Array Cardio Day 1](https://github.com/mercarf/JavaScript30/tree/main/04-ArrayCardio1)
 
-<img src="./04-ArrayCardio1/infoReadme/imgArray1.PNG" width="300px">
+<img src="./04-ArrayCardio1/infoReadme/imgArray1.PNG" alt="image array cardio 1" width="300px">
 
 5. Flex Panel Gallery
 6. Type Ahead
