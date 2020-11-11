@@ -1,10 +1,10 @@
-# CLOCK
+# Update CSS Variables with JS
 
 **AUTOR: Mercedes Carballal**
 
 ![imgCSSVariables](./infoReadme/imgCSSVariables.PNG)
 
-Este proyecto consiste en construir un reloj con CSS y JavaScript
+Este proyecto consiste en construir, CSS y JavaScript, una web en la que actualizar y cambiar las propiedades CSS de una imagen, como los bordes, la saturación, el zoom...
 <br >
 
 ## Muestra
