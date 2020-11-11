@@ -4,11 +4,11 @@
 
 ## Vista general de los retos
 
-1. JavaScript Drum Kit
+1. [JavaScript Drum Kit](https://github.com/mercarf/JavaScript30/tree/main/01-DrumKit)
 
 <img src="./01-DrumKit/infoReadme/vista-general.PNG" width="300px">
 
-2. JS and CSS Clock
+2. [JS and CSS Clock](https://github.com/mercarf/JavaScript30/tree/main/02-Clockt)
 
 <img src="./02-Clock/infoReadme/imgClock.PNG" width="300px">
 
