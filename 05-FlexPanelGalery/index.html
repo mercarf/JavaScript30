@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flex Panels 💖</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Amatic+SC"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="panels">
+      <div class="panel panel1">
+        <p>Hey!</p>
+        <p>Todo</p>
+        <p>llega</p>
+      </div>
+      <div class="panel panel2">
+        <p>No te</p>
+        <p>Va</p>
+        <p>a detener</p>
+      </div>
+      <div class="panel panel3">
+        <p>Ve</p>
+        <p>a</p>
+        <p>por todas</p>
+      </div>
+      <div class="panel panel4">
+        <p>Te va a</p>
+        <p>Salir</p>
+        <p>genial</p>
+      </div>
+      <div class="panel panel5">
+        <p>Vive</p>
+        <p>Bien</p>
+        <p>Ríe siempre</p>
+      </div>
+    </div>
+
+    <script>
+      const panels = document.querySelectorAll('.panel');
+
+      function toggleOpen() {
+        console.log('Hello');
+        this.classList.toggle('open');
+      }
+
+      function toggleActive(e) {
+        console.log(e.propertyName);
+        if (e.propertyName.includes('flex')) {
+          this.classList.toggle('open-active');
+        }
+      }
+
+      panels.forEach((panel) => panel.addEventListener('click', toggleOpen));
+      panels.forEach((panel) =>
+        panel.addEventListener('transitionend', toggleActive)
+      );
+    </script>
+  </body>
+</html>
