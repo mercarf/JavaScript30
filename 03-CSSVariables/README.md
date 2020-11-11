@@ -2,14 +2,14 @@
 
 **AUTOR: Mercedes Carballal**
 
-![img-clock](./infoReadme/imgClock.PNG)
+![imgCSSVariables](./infoReadme/imgCSSVariables.PNG)
 
 Este proyecto consiste en construir un reloj con CSS y JavaScript
 <br >
 
 ## Muestra
 
-![gif-clock](./infoReadme/gifClock.gif)
+![gifCSSVariables](./infoReadme/gifCSSVariables.gif)
 
 ## Estructura
 

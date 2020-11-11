@@ -12,7 +12,10 @@
 
 <img src="./02-Clock/infoReadme/imgClock.PNG" width="300px">
 
-3. CSS Variable
+3. [CSS Variables](https://github.com/mercarf/JavaScript30/tree/main/03-CSSVariables)
+
+<img src="./03-CSSVariables/infoReadme/imgCSSVariables.PNG" width="300px">
+
 4. Array Cardio Day 1
 5. Flex Panel Gallery
 6. Type Ahead
@@ -29,14 +32,14 @@
 17. Sort without Articles
 18. Adding Yo Tunes with Reduce
 19. Webcam Fun
-20.Soeech Detection
-21. Geolocation
-22. Follow Along Link Higlighter
-23. Speech Synthesis
-24. Stiky Nav
-25. Event Capture, Propagation, Bubbling and Once
-26. Stripe Follow Along Nav
-27. Click and Drag
-28. Video Speed Controller
-29. Countdown Timer
-30. Whack a Mole
+    20.Soeech Detection
+20. Geolocation
+21. Follow Along Link Higlighter
+22. Speech Synthesis
+23. Stiky Nav
+24. Event Capture, Propagation, Bubbling and Once
+25. Stripe Follow Along Nav
+26. Click and Drag
+27. Video Speed Controller
+28. Countdown Timer
+29. Whack a Mole

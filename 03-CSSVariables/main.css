@@ -1,0 +1,64 @@
+:root {
+  --base: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+  --grayscale: 0%;
+  --border-radius: 0%;
+  --zoom: 0%;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur)) grayscale(var(--grayscale));
+  border-radius: var(--border-radius);
+  zoom: var(--zoom);
+  height: 500px;
+  margin: auto;
+}
+
+.hl {
+  color: var(--base);
+}
+
+/*
+    misc styles, nothing to do with CSS variables
+  */
+
+body {
+  text-align: center;
+  background: #193549;
+  color: white;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 100;
+  font-size: 50px;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.controls {
+  margin-bottom: 50px;
+  display: block;
+  /* margin: auto; */
+  margin-left: 50px;
+}
+
+.input__container {
+  margin: 10px;
+  flex-basis: 150px;
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  min-width: 300px;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  width: 100px;
+}
