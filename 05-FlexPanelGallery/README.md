@@ -10,7 +10,7 @@ Este proyecto consiste en realizar unos paneles flexibles, utilizando HTML, CSS 
 
 ## Muestra
 
-![gifFlexPanels1](./infoReadme/gifFlexPanels1.gif)
+![gifFlexPanels](./infoReadme/gifFlexPanels.gif)
 
 ## Resolución
 
