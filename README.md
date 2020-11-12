@@ -14,7 +14,7 @@
 | <img src="./03-CSSVariables/infoReadme/imgCSSVariables.PNG" alt="image css variables" width="300px">          | ---                                  | ---                                               |
 | 4. [Array Cardio Day 1](https://github.com/mercarf/JavaScript30/tree/main/04-ArrayCardio1)                    | 14. JavaScript References vs Copying | 24. Stiky Nav                                     |
 | <img src="./04-ArrayCardio1/infoReadme/imgArray1.PNG" alt="image array cardio 1" width="300px">               | ---                                  | ---                                               |
-| 5. [Flex Panel Gallery](https://github.com/mercarf/JavaScript30/tree/main/05-FlexPanelsGallery)               | 15. LocalStorage                     | 25. Event Capture, Propagation, Bubbling and Once |
+| 5. [Flex Panel Gallery](https://github.com/mercarf/JavaScript30/tree/main/05-FlexPanelGallery)                | 15. LocalStorage                     | 25. Event Capture, Propagation, Bubbling and Once |
 | <img src="./05-FlexPanelGallery/infoReadme/imgFlexPanels1.PNG" alt="image flex panels gallery" width="300px"> | ---                                  | ---                                               |
 | 6. Type Ahead                                                                                                 | 16. Mouse Move Shadow                | 26. Stripe Follow Along Nav                       |
 | ---                                                                                                           | ---                                  | ---                                               |
