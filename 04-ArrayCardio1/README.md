@@ -147,9 +147,35 @@ const oldest = inventors.sort(function (a, b) {
 
 **6. Array ordenado alfabéticamente**
 
+Dado que nuestro array de personas tiene el nombre y apellido junto, mi primer paso es crear con cada persona un primer array ***firstOne*** separando nombre y apellido y un segundo ***nextOne*** para compararlo, de manera que luego podamos hacer la misma operación que en el ejercicio 4 o 5:
+
+```js
+const alpha = people.sort((firstOne, nextOne) => {
+        const [aFirst, aLast] = firstOne.split(', ');
+        const [bFirst, bLast] = nextOne.split(', ');
+        return aFirst > bFirst ? 1 : -1;
+      });
+      console.log('6. Array ordenado alfabéticamente');
+      console.log(alpha);
+
+```
+
 ![operacion6](./infoReadme/operacion6.PNG)
 
 **7. Obtener la cantidad de veces que se repite cada objeto**
+
+```js
+const transportation = data.reduce(function (obj, item) {
+        if (!obj[item]) {
+          obj[item] = 0;
+        }
+        obj[item]++;
+        return obj;
+      }, {});
+
+      console.log('7. Obtener la cantidad de veces que se repite cada objeto');
+      console.log(transportation);
+```
 
 ![operacion7](./infoReadme/operacion7.PNG)
 
