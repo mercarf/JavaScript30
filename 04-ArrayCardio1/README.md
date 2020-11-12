@@ -76,7 +76,7 @@ Dados 2 array:
   ];
   ```
 
-1. Filtrar inventores que nacieron en 1500 a partir de un array
+**1. Filtrar inventores que nacieron en 1500 a partir de un array**
 
 Utilizo el método de array `filter` y a la función le indicos el rango en el que tiene que filtrar:
 
@@ -93,27 +93,39 @@ console.table(fifteen);
 
 ![operacion1](./infoReadme/operacion1.PNG)
 
-2. Mapeado de array para obtener otro con los nombres y apellidos de los inventores
+**2. Mapeado de array para obtener otro con los nombres y apellidos de los inventores**
+
+Utilizo el método de array `map` indicándole que quiero un array del mismo tamaño pero solo con el nombre y apellido de cada inventor:
+
+```js
+const fullNames = inventors.map(
+        (inventor) => `${inventor.first} ${inventor.last}`
+      );
+      console.log('2. Mapeado de array para obtener otro con los nombres y apellidos de los inventores');
+      console.log(fullNames);
+```
 
 ![operacion2](./infoReadme/operacion2.PNG)
 
-3. Ordenar array del más viejo al más joven
+**3. Ordenar array del más viejo al más joven**
+
+Utilizo el método de array `sort` indicándole que quiero el array ordenado de mayor a menor, uso un ternario para decirle que **si a es mayor que b = 1, y sino = -1**:
 
 ![operacion3](./infoReadme/operacion3.PNG)
 
-4. ¿Cuántos años en total han vivido todos los inventores juntos?
+**4. ¿Cuántos años en total han vivido todos los inventores juntos?**
 
 ![operacion4](./infoReadme/operacion4.PNG)
 
-5. Ordenar a los inventores por los años que han vivido
+**5. Ordenar a los inventores por los años que han vivido**
 
 ![operacion5](./infoReadme/operacion5.PNG)
 
-6. Array ordenado alfabéticamente
+**6. Array ordenado alfabéticamente**
 
 ![operacion6](./infoReadme/operacion6.PNG)
 
-7. Obtener la cantidad de veces que se repite cada objeto
+**7. Obtener la cantidad de veces que se repite cada objeto**
 
 ![operacion7](./infoReadme/operacion7.PNG)
 
