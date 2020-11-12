@@ -126,10 +126,10 @@
 
       // 7. sort Exercise
       // Sort the people alphabetically by last name
-      const alpha = people.sort((lastOne, nextOne) => {
-        const [aLast, aFirst] = lastOne.split(', ');
-        const [bLast, bFirst] = nextOne.split(', ');
-        return aLast > bLast ? 1 : -1;
+      const alpha = people.sort((firstOne, nextOne) => {
+        const [aFirst, aLast] = firstOne.split(', ');
+        const [bFirst, bLast] = nextOne.split(', ');
+        return aFirst > bFirst ? 1 : -1;
       });
       console.log('6. Array ordenado alfabéticamente');
       console.log(alpha);

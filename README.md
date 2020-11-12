@@ -20,7 +20,10 @@
 
 <img src="./04-ArrayCardio1/infoReadme/imgArray1.PNG" alt="image array cardio 1" width="300px">
 
-5. Flex Panel Gallery
+5. [Flex Panel Gallery](https://github.com/mercarf/JavaScript30/tree/main/05-FlexPanelsGallery)
+
+<img src="./05-FlexPanelsGallery/infoReadme/imgFlexPanels.PNG" alt="image flex panels gallery" width="300px">
+
 6. Type Ahead
 7. Array Cardio Day 2
 8. Fun with HTML5 Canvas
