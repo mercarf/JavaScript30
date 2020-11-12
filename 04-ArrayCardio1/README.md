@@ -115,9 +115,33 @@ Utilizo el método de array `sort` indicándole que quiero el array ordenado de 
 
 **4. ¿Cuántos años en total han vivido todos los inventores juntos?**
 
+Aquí quiero calcular cuantos años han vivido todos en total, para ello utilido el método de array `reduce` donde le doy dos argumentos, el primero ***total***, que será el que actuará de acumulador, y el segundo ***inventor*** que será cada uno de los inventores de los que hay a calcular sus años vividos. Por lo tanto el metodo reduce lo que hará será ir calculando uno a uno los años vividos y sumandose al anterior:
+
+```js
+const totalYears = inventors.reduce((total, inventor) => {
+        return total + (inventor.passed - inventor.year);
+      }, 0);
+
+      console.log('4. ¿Cuántos años en total han vivido todos los inventores juntos?');
+      console.log(totalYears);
+```
+
 ![operacion4](./infoReadme/operacion4.PNG)
 
 **5. Ordenar a los inventores por los años que han vivido**
+
+Aquí, de nuevo, usamos el método sort, para ordenar de mayor a menos los inventores por la cantidad de años que han permanecido con vida.
+primero debemos calcular los años vividos de cada uno, y luego utilizando un ternario haremos el mismo proceso que en el ejericio 4:
+
+```js
+const oldest = inventors.sort(function (a, b) {
+        const lastInventor = a.passed - a.year;
+        const nextInventor = b.passed - b.year;
+        return lastInventor > nextInventor ? -1 : 1;
+      });
+      console.table('5. Ordenar a los inventores por los años que han vivido');
+      console.table(oldest);
+```
 
 ![operacion5](./infoReadme/operacion5.PNG)
 
