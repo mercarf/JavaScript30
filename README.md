@@ -22,7 +22,7 @@
 | ---                                                                                                           | ---                                  | ---                                               |
 | 8. [Fun with HTML5 Canvas](https://github.com/mercarf/JavaScript30/tree/main/08-FunHtml5Canvas)               | 18. Adding Yo Tunes with Reduce      | 28. Video Speed Controller                        |
 | <img src="./08-FunHtml5Canvas/infoReadme/imgCanvas.PNG" alt="image canvas" width="300px">                     | ---                                  | ---                                               |
-| 9. Dev Tools Domination                                                                                       | 19. Webcam Fun                       | 29. Countdown Timer                               |
-| ---                                                                                                           | ---                                  | ---                                               |
+| 9. [Dev Tools Domination](https://github.com/mercarf/JavaScript30/tree/main/09-DevTools)                      | 19. Webcam Fun                       | 29. Countdown Timer                               |
+| <img src="./09-DevTools/infoReadme/imgDevTools.PNG" alt="image dev tools" width="300px">                      | ---                                  | ---                                               |
 | 10. Hold Shift and Check Checkboxes                                                                           | 20. Speech Detection                 | 30. Whack a Mole                                  |
 | ---                                                                                                           | ---                                  | ---                                               |
