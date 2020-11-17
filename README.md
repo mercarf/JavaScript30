@@ -21,7 +21,7 @@
 | 7. Array Cardio Day 2                                                                                         | 17. Sort without Articles            | 27. Click and Drag                                |
 | ---                                                                                                           | ---                                  | ---                                               |
 | 8. [Fun with HTML5 Canvas](https://github.com/mercarf/JavaScript30/tree/main/08-FunHtml5Canvas)               | 18. Adding Yo Tunes with Reduce      | 28. Video Speed Controller                        |
-| <img src="./08-FunHtml5Canvas/infoReadme/imgCanvas.PNG" alt="image flex panels gallery" width="300px">        | ---                                  | ---                                               |
+| <img src="./08-FunHtml5Canvas/infoReadme/imgCanvas.PNG" alt="image canvas" width="300px">                     | ---                                  | ---                                               |
 | 9. Dev Tools Domination                                                                                       | 19. Webcam Fun                       | 29. Countdown Timer                               |
 | ---                                                                                                           | ---                                  | ---                                               |
 | 10. Hold Shift and Check Checkboxes                                                                           | 20. Speech Detection                 | 30. Whack a Mole                                  |

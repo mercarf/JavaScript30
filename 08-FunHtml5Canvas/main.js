@@ -1,13 +1,12 @@
 'use strict';
 
-//Seleccionamos el elemento canvas
+//constantes
 const canvas = document.querySelector('.draw'); 
+const button = document.querySelector('.reset');
+const saveBtn = document.querySelector('.save');
 
 //Indicamos el valor que representa un contexto de reperesentacion bidimensional
 const ctx = canvas.getContext('2d'); 
-
-const button = document.querySelector('.reset');
-const saveBtn = document.querySelector('.save');
 
 //Indicamos las dimensiones que va a ocupar el canvas
 canvas.width = window.innerWidth; 
