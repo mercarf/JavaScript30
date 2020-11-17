@@ -32,6 +32,7 @@ console.log(
 ```
 
 **_Imagen de los puntos 1,2 y 3_**
+
 ![img123](./infoReadme/img123.PNG)
 
 4. mostrar warning!
@@ -65,6 +66,7 @@ console.assert(magic.classList.contains('ouch'), 'That is wrong!');
 ```
 
 **_Imagen de los puntos 4,5,6 y 7_**
+
 ![img4567](./infoReadme/img4567.PNG)
 
 8. Limpiar la consola
@@ -95,7 +97,7 @@ const characters = [
 ];
 ```
 
-10. Agrupamos cada personaje con su información
+Agrupamos cada personaje con su información
 
 ```js
 characters.forEach((character) => {
