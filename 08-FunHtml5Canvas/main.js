@@ -76,7 +76,14 @@ function draw(e) {
 function drawing(e){
   e.preventDefault();
   isDrawing = true;
-  [lastX, lastY] = [e.offsetX, e.offsetY]
+  if (e.changedTouches == undefined) {
+    // Versión ratón
+    [lastX, lastY] = [e.offsetX, e.offsetY];
+  } else {
+    // Versión touch, pantalla tactil
+    lastX = e.changedTouches[0].clientX - lastX;
+    lastY = e.changedTouches[0].clientX - lastY;
+  }
 }
 
 function reset(){
@@ -104,7 +111,7 @@ canvas.addEventListener('mouseup', () => isDrawing = false); //Deja de pintar cu
 canvas.addEventListener('mouseout', () => isDrawing = false); //Deja de pintar cuando el raton sale de la pantalla
 
 // Cuando usamos el movil
-  canvas.addEventListener('touchstart', drawing,false);
+  canvas.addEventListener('touchstart', drawing);
   
   canvas.addEventListener('touchmove', draw); //Pinta mientras el ratón semueve y está clickado/en uso
 
