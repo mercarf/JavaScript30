@@ -21,7 +21,6 @@ ctx.lineWidth = 100;
 
 //Definimos las variables que van a cambiar
 let isDrawing = false;
-// let lines = [];
 let lastX = 0; //Coordenada X inicial
 let lastY = 0; //Coordenada Y inicial
 let hue = 145; //Color hue inicial
@@ -30,46 +29,36 @@ let position = canvas.getBoundingClientRect()
 lastX = position.x;
 lastY = position.y;
 
-
-// function startDraw () {
-//   drawLine = true;
-//    lines.push([]);
-// };
-
 //Función que permitirá realizar el dibujo 2D
 function draw(e) {
   e.preventDefault();
   if (!isDrawing) return; // Paramos la funcion cuando no estamos clickando el ratón
-  // console.log(e);
-  let newPositionX = 0;
-  let newPositionY = 0;
-  if (e.changedTouches == undefined) {
-    // Versión ratón
-    newPositionX = e.offsetX;
-    newPositionY = e.offsetY;
-  } else {
-    // Versión touch, pantalla tactil
-    newPositionX = e.changedTouches[0].offsetX - lastX;
-    newPositionY = e.changedTouches[0].offsetY - lastY;
-  }
-
+  console.log(e);
+  
   ctx.strokeStyle = `hsl(${hue}, 70%, 50%)`;
   ctx.save();
   ctx.beginPath();
-
+  
   // Indicamos desde donde empieza
   ctx.moveTo(lastX, lastY);
   // Indicamos hasta donde termina
   ctx.lineTo(e.offsetX, e.offsetY);
   ctx.stroke();
-  [lastX, lastY] = [e.offsetX, e.offsetY];
+  if (e.changedTouches == undefined) {
+    // Versión ratón
+    [lastX, lastY] = [e.offsetX, e.offsetY];
+  } else {
+    // Versión touch, pantalla tactil
+    lastX = e.changedTouches[0].clientX - lastX;
+    lastY = e.changedTouches[0].clientX - lastY;
+  }
+  
 
-  //Valores de gama de color entre los que va a variar el trazo
   hue++;
-  if (hue >= 320 & hue <145) {
+  if (hue >= 360) {
     hue = 0;
   }
-console.log(hue);
+  // console.log(hue);
   //Valores de tamaño entre los que va a variar el trazo
   if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
     direction = !direction;
@@ -85,6 +74,7 @@ console.log(hue);
 }
 
 function drawing(e){
+  e.preventDefault();
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY]
 }
@@ -116,7 +106,7 @@ canvas.addEventListener('mouseout', () => isDrawing = false); //Deja de pintar c
 // Cuando usamos el movil
   canvas.addEventListener('touchstart', drawing,false);
   
-  canvas.addEventListener('touchmove', draw,false); //Pinta mientras el ratón semueve y está clickado/en uso
+  canvas.addEventListener('touchmove', draw); //Pinta mientras el ratón semueve y está clickado/en uso
 
 
 // Botones
