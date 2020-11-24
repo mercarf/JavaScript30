@@ -160,7 +160,7 @@
     </tr>
     <tr>
         <td align="center">
-            <a href="">10. Hold Shift and Check Checkboxes</a>
+            <a href="https://github.com/mercarf/JavaScript30/tree/main/10-HoldShiftCheck">10. Hold Shift and Check Checkboxes</a>
         </td>
         <td align="center">
     	    <a href="4">20. Speech Detection</a>
