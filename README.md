@@ -19,10 +19,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/01-DrumKit">1. JavaScript Drum Kit</a>
         </td>
         <td align="center"> 
-            <a href="">11. Custom Video PLayer</a>
+            <p>11. Custom Video PLayer</p>
         </td>
         <td align="center"> 
-            <a href="">21. Geolocation</a>
+            <p>21. Geolocation</p>
         </td>
     </tr>
     <tr>
@@ -35,10 +35,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/02-Clock">2. JS and CSS Clock</a>
         </td>
         <td align="center">
-    	    <a href="4">12. Key Sequence Detection</a>
+    	    <p>12. Key Sequence Detection</p>
         </td>
         <td align="center">
-    	    <a href="">22. Follow Along Link Higlighter</a>
+    	    <p>22. Follow Along Link Higlighter</p>
         </td>
     </tr>
     <tr>
@@ -51,10 +51,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/03-CSSVariables">3. CSS Variables</a>
         </td>
         <td align="center">
-    	    <a href="4">13. Slide in on Scroll</a>
+    	    <p>13. Slide in on Scroll</p>
         </td>
         <td align="center">
-    	    <a href="">23. Speech Synthesis</a>
+    	    <p>23. Speech Synthesis</p>
         </td>
     </tr>
     <tr>
@@ -67,10 +67,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/04-ArrayCardio1">4. Array Cardio Day 1</a>
         </td>
         <td align="center">
-    	    <a href="4">14. JavaScript References vs Copying</a>
+    	    <p>14. JavaScript References vs Copying</p>
         </td>
         <td align="center">
-    	    <a href="">24. Stiky Nav</a>
+    	    <p>24. Stiky Nav</p>
         </td>
     </tr>
     <tr>
@@ -83,10 +83,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/05-FlexPanelGallery">4. Array Cardio Day 1</a>
         </td>
         <td align="center">
-    	    <a href="4">15. LocalStorage</a>
+    	    <p>15. LocalStorage</p>
         </td>
         <td align="center">
-    	    <a href="">25. Event Capture, Propagation, Bubbling and Once</a>
+    	    <p>25. Event Capture, Propagation, Bubbling and Once</p>
         </td>
     </tr>
     <tr>
@@ -96,13 +96,13 @@
     </tr>
     <tr>
         <td align="center">
-            <a href="">6. Type Ahead</a>
+            <p>6. Type Ahead</p>
         </td>
         <td align="center">
-    	    <a href="4">16. Mouse Move Shadow</a>
+    	    <p>16. Mouse Move Shadow</p>
         </td>
         <td align="center">
-    	    <a href="">26. Stripe Follow Along Nav</a>
+    	    <p>26. Stripe Follow Along Nav</p>
         </td>
     </tr>
     <tr>
@@ -112,13 +112,13 @@
     </tr>
     <tr>
         <td align="center">
-            <a href="">7. Array Cardio Day 2</a>
+            <p>7. Array Cardio Day 2</p>
         </td>
         <td align="center">
-    	    <a href="4">17. Sort without Articles</a>
+    	    <p>17. Sort without Articles</p>
         </td>
         <td align="center">
-    	    <a href="">27. Click and Drag</a>
+    	    <p>27. Click and Drag</p>
         </td>
     </tr>
     <tr>
@@ -131,10 +131,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/08-FunHtml5Canvas">8. Fun with HTML5 Canvas</a>
         </td>
         <td align="center">
-    	    <a href="4">18. Adding Yo Tunes with Reduce</a>
+    	    <p>18. Adding Yo Tunes with Reduce</p>
         </td>
         <td align="center">
-    	    <a href="">28. Video Speed Controller</a>
+    	    <p>28. Video Speed Controller</p>
         </td>
     </tr>
     <tr>
@@ -147,10 +147,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/09-DevTools">9. Dev Tools Domination</a>
         </td>
         <td align="center">
-    	    <a href="4">19. Webcam Fun</a>
+    	    <p>19. Webcam Fun</p>
         </td>
         <td align="center">
-    	    <a href="">29. Countdown Timer</a>
+    	    <p>29. Countdown Timer</p>
         </td>
     </tr>
     <tr>
@@ -163,10 +163,10 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/10-HoldShiftCheck">10. Hold Shift and Check Checkboxes</a>
         </td>
         <td align="center">
-    	    <a href="4">20. Speech Detection</a>
+    	    <p>20. Speech Detection</p>
         </td>
         <td align="center">
-    	    <a href="">30. Whack a Mole</a>
+    	    <p>30. Whack a Mole</p>
         </td>
     </tr>
     <tr>
