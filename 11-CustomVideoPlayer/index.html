@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./main.css" />
+    <script
+      src="https://kit.fontawesome.com/7fa95d1a39.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="player">
@@ -35,6 +39,12 @@
         />
         <button data-skip="-10" class="player__button">« 10s</button>
         <button data-skip="25" class="player__button">25s »</button>
+        <button class="player__button full">
+          <i class="fas fa-expand"></i>
+        </button>
+        <button class="player__button exitFull hidden">
+          <i class="fas fa-compress"></i>
+        </button>
       </div>
     </div>
     <script type="text/javascript" src="./main.js"></script>

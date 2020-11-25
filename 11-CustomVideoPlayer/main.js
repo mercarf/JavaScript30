@@ -1,26 +1,32 @@
 'use strict';
 
-/* Get Our Elements */
+/*---- CONSTANTES - Recogemos nuestros elementos -----*/
 const player = document.querySelector('.player');
 const video = player.querySelector('.viewer');
 const progress = player.querySelector('.progress');
 const progressBar = player.querySelector('.progress__filled');
 const toggle = player.querySelector('.toggle');
+const full = player.querySelector('.full');
+const exitFull = player.querySelector('.exitFull');
 const skipButtons = player.querySelectorAll('[data-skip]');
 const ranges = player.querySelectorAll('.player__slider');
 
-/* Build out functions */
+/*---- FUNCIONES -----*/
+
+// Función que cambia el estado a play o pausa cuando clicamos
 function togglePlay() {
   const method = video.paused ? 'play' : 'pause';
   video[method]();
 }
 
+// Función que actualiza el estado de play y pausa
 function updateButton() {
   const icon = this.paused ? '►' : '❚ ❚';
   console.log(icon);
   toggle.textContent = icon;
 }
 
+// Función que nos permite avanzar o retroceder
 function skip() {
  video.currentTime += parseFloat(this.dataset.skip);
 }
@@ -34,12 +40,49 @@ function handleProgress() {
   progressBar.style.flexBasis = `${percent}%`;
 }
 
+// Funcion que mueve la barra de progreso hasta el punto en el que clickamos
 function scrub(e) {
   const scrubTime = (e.offsetX / progress.offsetWidth) * video.duration;
   video.currentTime = scrubTime;
 }
 
-/* Hook up the event listeners */
+// Función que expande la pantalla a completa
+function handleFull(element){
+  console.log(element);
+  if(element.requestFullscreen) {
+    element.requestFullscreen();
+    full.classList.add('hidden');
+    exitFull.classList.remove('hidden');
+  } else if(element.mozRequestFullScreen) {
+    element.mozRequestFullScreen();
+    full.classList.add('hidden');
+  } else if(element.webkitRequestFullscreen) {
+    element.webkitRequestFullscreen();
+    full.classList.add('hidden');
+  } else if(element.msRequestFullscreen) {
+    element.msRequestFullscreen();
+    full.classList.add('hidden');
+  }
+}
+
+// Función que comprime la pantalla a su tamaño original
+function exitFullscreen() {
+  if(document.exitFullscreen) {
+    document.exitFullscreen();
+    full.classList.remove('hidden');
+    exitFull.classList.add('hidden');
+  } else if(document.mozCancelFullScreen) {
+    document.mozCancelFullScreen();
+    full.classList.remove('hidden');
+    exitFull.classList.add('hidden');
+  } else if(document.webkitExitFullscreen) {
+    document.webkitExitFullscreen();
+    full.classList.remove('hidden');
+    exitFull.classList.add('hidden');
+  }
+}
+
+/*---- EVENTOS -----*/
 video.addEventListener('click', togglePlay);
 video.addEventListener('play', updateButton);
 video.addEventListener('pause', updateButton);
@@ -55,3 +98,10 @@ progress.addEventListener('click', scrub);
 progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
 progress.addEventListener('mousedown', () => mousedown = true);
 progress.addEventListener('mouseup', () => mousedown = false);
+
+full.addEventListener('click', function(e){
+  handleFull(document.documentElement);
+},false);
+exitFull.addEventListener("click", function(e){
+  exitFullscreen();
+},false);
