@@ -19,7 +19,7 @@
             <a href="https://github.com/mercarf/JavaScript30/tree/main/01-DrumKit">1. JavaScript Drum Kit</a>
         </td>
         <td align="center"> 
-            <p>11. Custom Video PLayer</p>
+            <a href="https://github.com/mercarf/JavaScript30/tree/main/11-CustomVideoPlayer">11. Custom Video PLayer</a>
         </td>
         <td align="center"> 
             <p>21. Geolocation</p>
@@ -27,7 +27,7 @@
     </tr>
     <tr>
         <td align="center"><img src="./01-DrumKit/infoReadme/vista-general.PNG" alt="image drum kit" width="300px"></td>
-        <td align="center"><p>---</p></td>
+        <td align="center"><img src="./11-CustomVideoPlayer/infoReadme/imgVideoPlayer.PNG" alt="image Custom Video Player" width="300px"></td>
         <td align="center"><p>---</p></td>
     </tr>
     <tr>
